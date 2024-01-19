@@ -1,0 +1,9 @@
+public class CWH_Ch2_PS {
+    public static void main(String[] args) {
+
+        // Question1
+        // float a = 7/4 * 9/2; => The output will be 4.0 because integer/integer is integer only.
+        float a = 7/4.0f * 9/2.0f;
+        System.out.println(a);
+    }
+}
