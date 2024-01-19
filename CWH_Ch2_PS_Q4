@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class CWH_Ch2_PS {
+    public static void main(String[] args) {
+
+        //Question4
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter Final Velocity: ");
+        float v = sc.nextFloat();
+
+        System.out.print("Enter Initial Velocity: ");
+        float u = sc.nextFloat();
+
+        System.out.print("Enter Accelaration: ");
+        float acc = sc.nextFloat();
+
+        System.out.print("Enter Speed: ");
+        float s = sc.nextFloat();
+
+        float a =(v*v - u*u) / (2*acc*s);
+        System.out.println(a);
+    }
+}
+
